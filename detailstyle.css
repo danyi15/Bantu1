@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navbar {
+  position: center;
+}
+.navbar-brand {
+  font-family: viga;
+  font-size: 32px;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.workingspace {
+  margin-top: 100px;
+  text-align: justify;
+}
+
+.workingspace img {
+  position: relative;
+}

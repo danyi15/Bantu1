@@ -1,0 +1,166 @@
+/* Navbar */
+.navbar {
+  position: relative;
+  font-family: viga;
+  font-size: 20px;
+  z-index: 1;
+}
+.navbar-brand {
+  font-family: viga;
+  font-size: 32px;
+}
+
+/* JUBOTRON */
+.jumbotron {
+  background-image: url(img/umrah.jpg);
+  background-size: cover;
+  height: 640px;
+  text-align: center;
+  font-family: viga;
+  position: relative;
+}
+
+.jumbotron .container {
+  z-index: 1;
+  position: relative;
+}
+
+.jumbotron::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+}
+
+.jumbotron .display-4 {
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+  font-weight: 200;
+}
+
+.jumbotron .display-4 span {
+  font-weight: 500;
+}
+
+/* INFO PANEL */
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: -100px;
+  background-color: #c9d6ff;
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  padding: 30px;
+}
+
+.info-panel h1 {
+  font-size: 40px;
+  font-family: viga;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+  text-align: center;
+}
+
+/* .info-panel p {
+  font-size: 12px;
+  color: #acacac;
+  margin-top: -5px;
+  font-weight: 200;
+} */
+
+/* WORKINGSPACE */
+.workingspace {
+  margin-top: 100px;
+  text-align: center;
+}
+.workingspace h3 {
+  font-size: 52px;
+  font-family: viga;
+  font-weight: 200;
+  text-transform: uppercase;
+  color: #363342;
+  /* margin-top: 5px; */
+}
+
+.workingspace h3 span {
+  font-weight: 500;
+}
+
+.workingspace h5 {
+  font-size: 20px;
+  font-family: viga;
+  color: #000;
+  font-weight: 200;
+  margin: 30px 0;
+}
+
+.workingspace h5 span {
+  text-decoration: underline;
+}
+
+.workingspace h5 span {
+  font-weight: 500;
+}
+
+/* FOOTER */
+
+.footer {
+  margin-top: 100px;
+}
+
+.footer p {
+  color: #acacac;
+  font-size: 18px;
+  margin-top: -5;
+}
+
+
+/* Utility */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 50px;
+  padding: 5px;
+}
+
+/* Dekstop Version */
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    color: black !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #0b63dc;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .jumbotron {
+    margin-top: -75px;
+    height: 640px; 
+  }
+  .jumbotron .display-4 {
+    font-size: 62px;
+  }
+
+  .workingspace {
+    text-align: left;
+  }
+
+  .testimonial h5 {
+    font-size: 32px;
+  }
+}

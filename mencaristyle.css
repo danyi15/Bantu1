@@ -1,0 +1,37 @@
+/* Custom styles */
+body {
+  font-family: 'Viga', sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+}
+
+.navbar-brand {
+  font-size: 2rem; /* Larger font size for the navbar brand */
+}
+
+.jumbotron {
+  background-color: #c9d6ff;
+  background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.jumbotron h5, .jumbotron h4 {
+  color: #fff; /* White text color */
+}
+
+.form-control {
+  border-radius: 20px;
+}
+
+.btn-outline-light {
+  border-radius: 20px;
+}
+
+/* Make the background fill the entire viewport */
+html, body, .jumbotron {
+  height: 100%;
+}
+
+/* Additional customizations as per your preference */
